@@ -214,3 +214,72 @@ padding: 12px 20px;
     align-items: center;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 576px) {
+    nav ul{
+        flex-direction: column;
+        padding: 20px 0;
+    }
+    .hero-container{
+        padding: 20px;
+    }
+    section, .why-container, .why-content{
+        margin: 0;
+    }
+    .why-content{
+        flex-direction: column-reverse;
+        padding: 15px 15px 30px 15px;
+    }
+
+    .help-text{
+        width: 100%;
+    }
+    .inspiration-container p{
+        padding: 10px;
+    }
+    .inspiration-video{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .target-content{
+      
+        justify-content: center;
+    }
+
+    .target-text p{
+        padding: 0 30px;
+    }
+
+    .skill-container{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 70px;
+    }
+    .skill-container img{
+        height: 50px;
+    }
+
+    .footer-container{
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+    
+    }
+
+    footer{
+        justify-content: center;
+        text-align: center;
+        margin: 50px 0;
+    }
+}
